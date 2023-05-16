@@ -9,57 +9,157 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SBP_Mongo
 build_property.RootNamespace = SBP_Mongo
-build_property.ProjectDir = C:\Users\korisnik\Documents\Visual Studio 2022\Projects\SBP_Mongo\SBP_Mongo\
+build_property.ProjectDir = C:\Users\Vlado\Desktop\SBP_Mongo\SBP_Mongo\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\korisnik\Documents\Visual Studio 2022\Projects\SBP_Mongo\SBP_Mongo
+build_property.MSBuildProjectDirectory = C:\Users\Vlado\Desktop\SBP_Mongo\SBP_Mongo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Home/Index.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Home/Privacy.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Pozicija/Create.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Lokacija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Lokacija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Lokacija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Lokacija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Lokacija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9rYWNpamFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Marka/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Marka/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Marka/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Marka/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Marka/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Model/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Model/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Model/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Model/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Model/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Pozicija/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Pozicija/Delete.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Pozicija/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Pozicija/Details.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Pozicija/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Pozicija/Edit.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Pozicija/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Pozicija/Index.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Pozicija/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG96aWNpamFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Shared/Error.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/_ViewImports.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vozilo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vozilo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vozilo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vozilo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vozilo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vrsta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vrsta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vrsta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vrsta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Vrsta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJzdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/_ViewStart.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/korisnik/Documents/Visual Studio 2022/Projects/SBP_Mongo/SBP_Mongo/Views/Shared/_Layout.cshtml]
+[C:/Users/Vlado/Desktop/SBP_Mongo/SBP_Mongo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-910wbftdld

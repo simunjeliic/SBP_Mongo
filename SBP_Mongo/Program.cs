@@ -1,4 +1,4 @@
-using SBP_Mongo.Models;
+﻿using SBP_Mongo.Models;
 using SBP_Mongo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +7,11 @@ builder.Services.Configure<VPDatabaseSettings>(
     builder.Configuration.GetSection("VPDatabase"));
 
 builder.Services.AddSingleton<PozicijaService>();
+builder.Services.AddSingleton<MarkaService>();
+builder.Services.AddSingleton<ModelService>();
+builder.Services.AddSingleton<LokacijaService>();
+builder.Services.AddSingleton<VrstaService>();
+builder.Services.AddSingleton<VoziloService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj": {}
+    "C:\\Users\\Vlado\\Desktop\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj": {
+    "C:\\Users\\Vlado\\Desktop\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
+        "projectUniqueName": "C:\\Users\\Vlado\\Desktop\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
         "projectName": "SBP_Mongo",
-        "projectPath": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
-        "packagesPath": "C:\\Users\\korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\",
+        "projectPath": "C:\\Users\\Vlado\\Desktop\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
+        "packagesPath": "C:\\Users\\Vlado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vlado\\Desktop\\SBP_Mongo\\SBP_Mongo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vlado\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -41,6 +40,16 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.6, )"
