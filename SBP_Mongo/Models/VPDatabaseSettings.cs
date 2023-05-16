@@ -12,5 +12,8 @@
         public string LokacijaCollectionName { get; set; } = null!;
         public string VrstaCollectionName { get; set; } = null!;
         public string VoziloCollectionName { get; set; } = null!;
+        public string UposlenikCollectionName { get; set; } = null!;
+        public string DodjelaVozilaCollectionName { get; set; } = null!;
+
     }
 }

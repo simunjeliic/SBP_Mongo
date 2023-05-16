@@ -12,6 +12,8 @@ builder.Services.AddSingleton<ModelService>();
 builder.Services.AddSingleton<LokacijaService>();
 builder.Services.AddSingleton<VrstaService>();
 builder.Services.AddSingleton<VoziloService>();
+builder.Services.AddSingleton<UposlenikService>();
+builder.Services.AddSingleton<DodjelaVozilaService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

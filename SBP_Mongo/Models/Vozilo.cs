@@ -16,5 +16,10 @@ namespace SBP_Mongo.Models
         public string VrstaVozila { get; set; } = null!;
         public string IdLokacije { get; set; } = null!;
         public string Gorivo { get; set; } = null!;
+
+        public static implicit operator string(Vozilo v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
