@@ -52,17 +52,18 @@ namespace SBP_Mongo.Controllers
         // POST: DodjelaVozilaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Uposlenik", "Vozilo", "Dodjeljeno", "VratitiDo")] DodjelaVozila DodjelaVozila)
+        public async Task<IActionResult> Create([Bind] DodjelaVozila dodjelaVozila)
         {
-            if (ModelState.IsValid)
+            if (dodjelaVozila.Uposlenik != null && dodjelaVozila.Vozilo != null)
             {
-
-
-
-                await _DodjelaVozilaService.CreateAsync(DodjelaVozila);
-                return RedirectToAction(nameof(Index));
+                Uposlenik u = await _UposlenikService.GetAsync(dodjelaVozila.Uposlenik);
+                Vozilo v = await _VoziloService.GetAsync(dodjelaVozila.Vozilo);
+                dodjelaVozila.UposlenikO = u;
+                dodjelaVozila.VoziloO = v;
             }
-            return View(DodjelaVozila);
+            await _DodjelaVozilaService.CreateAsync(dodjelaVozila);
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: DodjelaVozilaController/Edit/5
@@ -87,20 +88,26 @@ namespace SBP_Mongo.Controllers
         // POST: DodjelaVozilaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id", "Uposlenik", "Vozilo", "Dodjeljeno", "VratitiDo")] DodjelaVozila DodjelaVozila)
+        public async Task<IActionResult> Edit(string id, DodjelaVozila DodjelaVozila)
         {
             if (id != DodjelaVozila.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+
+            if (DodjelaVozila.Uposlenik != null && DodjelaVozila.Vozilo != null)
             {
-
-                await _DodjelaVozilaService.UpdateAsync(DodjelaVozila.Id, DodjelaVozila);
-
-                return RedirectToAction(nameof(Index));
+                Uposlenik u = await _UposlenikService.GetAsync(DodjelaVozila.Uposlenik);
+                Vozilo v = await _VoziloService.GetAsync(DodjelaVozila.Vozilo);
+                DodjelaVozila.UposlenikO = u;
+                DodjelaVozila.VoziloO = v;
             }
+
+            await _DodjelaVozilaService.UpdateAsync(DodjelaVozila.Id, DodjelaVozila);
+
+            return RedirectToAction(nameof(Index));
+
             return View(DodjelaVozila);
         }
 

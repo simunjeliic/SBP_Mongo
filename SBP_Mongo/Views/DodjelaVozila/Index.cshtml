@@ -16,10 +16,10 @@
                 @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Uposlenik)
+                @Html.DisplayNameFor(model => model.UposlenikO.Ime)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Vozilo)
+                @Html.DisplayNameFor(model => model.VoziloO.RegistracijskaOznaka)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Dodjeljeno)
@@ -37,10 +37,11 @@
                 @Html.DisplayFor(modelItem => item.Id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Uposlenik)
+                @Html.DisplayFor(modelItem => item.UposlenikO.Ime)
+                @Html.DisplayFor(modelItem => item.UposlenikO.Prezime)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Vozilo)
+                @Html.DisplayFor(modelItem => item.VoziloO.RegistracijskaOznaka)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Dodjeljeno)

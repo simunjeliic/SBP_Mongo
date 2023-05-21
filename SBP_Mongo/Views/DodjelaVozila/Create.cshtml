@@ -1,4 +1,5 @@
-﻿@model SBP_Mongo.Models.DodjelaVozila
+﻿@using MongoDB.Bson.IO;
+@model SBP_Mongo.Models.DodjelaVozila
 
 @{
     ViewData["Title"] = "Create";
@@ -18,8 +19,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Uposlenik" class="control-label"></label>
-                <select asp-for="Uposlenik" class="form-control">
-                    <option value=""> </option>
+                <select asp-for="Uposlenik" class="form-control" required>
                     @foreach (var uposlenik in ViewBag.Uposlenik)
                     {
                         <option value="@uposlenik.Id">@uposlenik.Ime @uposlenik.Prezime</option>
@@ -30,7 +30,6 @@
             <div class="form-group">
                 <label asp-for="Vozilo" class="control-label"></label>
                 <select asp-for="Vozilo" class="form-control">
-                    <option value=""> </option>
                     @foreach (var vozilo in ViewBag.Vozilo)
                     {
                         <option value="@vozilo.Id">@vozilo.ModelVozila @vozilo.RegistracijskaOznaka</option>
@@ -40,12 +39,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Dodjeljeno" class="control-label"></label>
-                <input asp-for="Dodjeljeno" class="form-control" />
+                <input asp-for="Dodjeljeno" class="form-control" required />
                 <span asp-validation-for="Dodjeljeno" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="VratitiDo" class="control-label"></label>
-                <input asp-for="VratitiDo" class="form-control" />
+                <input asp-for="VratitiDo" class="form-control" required />
                 <span asp-validation-for="VratitiDo" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -9,9 +9,13 @@ namespace SBP_Mongo.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string? Id { get; set; }
 
+
         public string Uposlenik { get; set; } = null!;
+        public Uposlenik UposlenikO { get; set; } = null!;
+
 
         public string Vozilo { get; set; } = null!;
+        public Vozilo VoziloO { get; set; } = null!;
 
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
         public DateTime? Dodjeljeno { get; set; }

@@ -7,10 +7,16 @@ namespace SBP_Mongo.Controllers
     public class VoziloController : Controller
     {
         private readonly VoziloService _voziloService;
+        private readonly ModelService modelService;
+        private readonly LokacijaService lokacijaService;
+        private readonly VrstaService vrstaService;
 
-        public VoziloController(VoziloService voziloService)
+        public VoziloController(VoziloService voziloService, ModelService modelService, LokacijaService lokacijaService, VrstaService vrstaService)
         {
             _voziloService = voziloService;
+            this.modelService = modelService;
+            this.lokacijaService = lokacijaService;
+            this.vrstaService = vrstaService;
         }
         // GET: VoziloController
         public async Task<IActionResult> Index()
