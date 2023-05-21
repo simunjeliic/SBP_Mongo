@@ -7,14 +7,14 @@ namespace SBP_Mongo.Controllers
     public class VoziloController : Controller
     {
         private readonly VoziloService _voziloService;
-        private readonly ModelService modelService;
+        private readonly ModelService _modelService;
         private readonly LokacijaService lokacijaService;
         private readonly VrstaService vrstaService;
 
         public VoziloController(VoziloService voziloService, ModelService modelService, LokacijaService lokacijaService, VrstaService vrstaService)
         {
             _voziloService = voziloService;
-            this.modelService = modelService;
+            _modelService = modelService;
             this.lokacijaService = lokacijaService;
             this.vrstaService = vrstaService;
         }
@@ -44,8 +44,11 @@ namespace SBP_Mongo.Controllers
         }
 
         // GET: VoziloController/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
+            ViewBag.Model = await _modelService.GetAsync();
+            ViewBag.Lokacija = await lokacijaService.GetAsync();
+            ViewBag.Vrsta = await vrstaService.GetAsync();
             return View();
         }
 
@@ -56,6 +59,7 @@ namespace SBP_Mongo.Controllers
         {
             if (ModelState.IsValid)
             {
+
                 await _voziloService.CreateAsync(vozilo);
                 return RedirectToAction(nameof(Index));
             }
@@ -75,6 +79,9 @@ namespace SBP_Mongo.Controllers
             {
                 return NotFound();
             }
+            ViewBag.Model = await _modelService.GetAsync();
+            ViewBag.Lokacija = await lokacijaService.GetAsync();
+            ViewBag.Vrsta = await vrstaService.GetAsync();
 
             return View(vozilo);
         }

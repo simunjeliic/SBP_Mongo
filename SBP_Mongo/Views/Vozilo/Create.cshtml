@@ -4,9 +4,8 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Dodaj novo vozilo</h1>
 
-<h4>Vozilo</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,7 +13,12 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="ModelVozila" class="control-label"></label>
-                <input asp-for="ModelVozila" class="form-control" />
+                <select asp-for="ModelVozila" class="form-control" required>
+                    @foreach (var vozilo in ViewBag.Model)
+                    {
+                        <option value="@vozilo.Naziv">@vozilo.Naziv</option>
+                    }
+                </select>
                 <span asp-validation-for="ModelVozila" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -34,12 +38,22 @@
             </div>
             <div class="form-group">
                 <label asp-for="VrstaVozila" class="control-label"></label>
-                <input asp-for="VrstaVozila" class="form-control" />
+                <select asp-for="VrstaVozila" class="form-control" required>
+                    @foreach (var vrsta in ViewBag.Vrsta)
+                    {
+                        <option value="@vrsta.Naziv">@vrsta.Naziv</option>
+                    }
+                </select>
                 <span asp-validation-for="VrstaVozila" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="IdLokacije" class="control-label"></label>
-                <input asp-for="IdLokacije" class="form-control" />
+                <select asp-for="IdLokacije" class="form-control" required>
+                    @foreach (var lokacija in ViewBag.Lokacija)
+                    {
+                        <option value="@lokacija.Naziv">@lokacija.Naziv</option>
+                    }
+                </select>
                 <span asp-validation-for="IdLokacije" class="text-danger"></span>
             </div>
             <div class="form-group">
