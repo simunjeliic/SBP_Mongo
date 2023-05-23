@@ -10996,19 +10996,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\korisnik\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
+      "projectUniqueName": "D:\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
       "projectName": "SBP_Mongo",
-      "projectPath": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
-      "packagesPath": "C:\\Users\\korisnik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\",
+      "projectPath": "D:\\SBP_Mongo\\SBP_Mongo\\SBP_Mongo.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11016,8 +11021,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -11073,7 +11077,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
