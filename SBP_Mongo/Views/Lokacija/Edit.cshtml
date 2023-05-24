@@ -1,11 +1,11 @@
 ﻿@model SBP_Mongo.Models.Lokacija
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit Lokacija vozila";
 }
-
-<h1>Edit</h1>
-
+<br/>
+<h2 class="text-success">Edit</h2>
+<br/>
 <h4>Lokacija</h4>
 <hr />
 <div class="row">
@@ -17,14 +17,12 @@
                 <input asp-for="Naziv" class="form-control" />
                 <span asp-validation-for="Naziv" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-outline-primary" fdprocessedid="v1udt9" />
+                <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+<br/>

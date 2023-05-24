@@ -5,18 +5,14 @@
     ViewData["Title"] = "Create Dodjela vozila";
 }
 <br />
-<h1>Create</h1>
+<h2 class="text-info">Create</h2>
 <br />
-<h1>Dodjela vozila</h1>
+<h4>Dodjela vozila</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <input asp-for="Id" class="form-control" hidden/>
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>     
             <div class="form-group">
                 <label asp-for="Uposlenik" class="control-label"></label>
                 <select asp-for="Uposlenik" class="form-control" required>
@@ -27,6 +23,7 @@
                 </select>
                 <span asp-validation-for="Uposlenik" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
                 <label asp-for="Vozilo" class="control-label"></label>
                 <select asp-for="Vozilo" class="form-control">
@@ -37,24 +34,25 @@
                 </select>
                 <span asp-validation-for="Vozilo" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="Dodjeljeno" class="control-label"></label>
+                <label asp-for="Dodjeljeno" class="control-label">Datum dodjele</label>
                 <input asp-for="Dodjeljeno" class="form-control" required />
                 <span asp-validation-for="Dodjeljeno" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="VratitiDo" class="control-label"></label>
+                <label asp-for="VratitiDo" class="control-label">Datum vraćanja</label>
                 <input asp-for="VratitiDo" class="form-control" required />
                 <span asp-validation-for="VratitiDo" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-outline-primary" fdprocessedid="v1udt9" />
+                <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
             </div>
+            <br/>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+<br/>

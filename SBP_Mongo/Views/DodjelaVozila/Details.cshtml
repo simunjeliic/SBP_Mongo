@@ -1,41 +1,37 @@
 ﻿@model SBP_Mongo.Models.DodjelaVozila
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Details of Dodjela vozila";
 }
-
-<h1>Details</h1>
-
+<br/>
+<h2 class="text-warning">Details</h2>
+<br/>
 <div>
-    <h4>DodjelaVozila</h4>
+    <h4>Dodjela vozila</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Id)
-        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Uposlenik)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Uposlenik)
+            @Html.DisplayFor(model => model.UposlenikO.Ime)
+            @Html.DisplayFor(model => model.UposlenikO.Prezime)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Vozilo)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Vozilo)
+            @Html.DisplayFor(model => model.VoziloO.ModelVozila)
+            @Html.DisplayFor(model => model.VoziloO.RegistracijskaOznaka)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Dodjeljeno)
+            Datum dodjele
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Dodjeljeno)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VratitiDo)
+            Datum vraćanja
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.VratitiDo)
@@ -43,6 +39,6 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+    <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
 </div>

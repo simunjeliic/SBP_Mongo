@@ -4,10 +4,10 @@
     ViewData["Title"] = "Lokacije vozila";
 }
 <br/>
-<h2>Lokacije</h2>
+<h2>Lokacije vozila</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-primary" fdprocessedid="v1udt9">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -25,9 +25,9 @@
                 @Html.DisplayFor(modelItem => item.Naziv)
             </td>
             <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
             </td>
         </tr>
 }
