@@ -4,14 +4,14 @@
     ViewData["Title"] = "Dodjele vozila";
 }
 <br/>
-<h1>Dodjele vozila</h1>
+<h2>Dodjele vozila</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="table-primary">
             
             <th>
                 Uposlenik
@@ -20,17 +20,17 @@
                 Vozilo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Dodjeljeno)
+                Datum dodjele
             </th>
             <th>
-                Povratak
+                Datum vraćanja
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+            <tr class="table-dark">
             
             <td>
                 @Html.DisplayFor(modelItem => item.UposlenikO.Ime)

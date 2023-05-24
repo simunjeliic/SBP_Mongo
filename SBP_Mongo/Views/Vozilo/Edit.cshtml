@@ -1,11 +1,11 @@
 ﻿@model SBP_Mongo.Models.Vozilo
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit vozilo";
 }
-
-<h1>Uredi vozilo</h1>
-
+<br/>
+<h2 class="text-success">Edit</h2>
+<br/>
 <h4>Vozilo</h4>
 <hr />
 <div class="row">
@@ -13,7 +13,7 @@
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="ModelVozila" class="control-label"></label>
+                <label asp-for="ModelVozila" class="control-label">Model vozila</label>
                 <select asp-for="ModelVozila" class="form-control" required>
                     @foreach (var vozilo in ViewBag.Model)
                     {
@@ -22,23 +22,27 @@
                 </select>
                 <span asp-validation-for="ModelVozila" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="BrojSasije" class="control-label"></label>
+                <label asp-for="BrojSasije" class="control-label">Broj šasije</label>
                 <input asp-for="BrojSasije" class="form-control" />
                 <span asp-validation-for="BrojSasije" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="RegistracijskaOznaka" class="control-label"></label>
+                <label asp-for="RegistracijskaOznaka" class="control-label">Registracijsla oznaka</label>
                 <input asp-for="RegistracijskaOznaka" class="form-control" />
                 <span asp-validation-for="RegistracijskaOznaka" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="GodinaProizvodnje" class="control-label"></label>
+                <label asp-for="GodinaProizvodnje" class="control-label">Godina proizvodnje</label>
                 <input asp-for="GodinaProizvodnje" class="form-control" />
                 <span asp-validation-for="GodinaProizvodnje" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="VrstaVozila" class="control-label"></label>
+                <label asp-for="VrstaVozila" class="control-label">Vrsta vozila</label>
                 <select asp-for="VrstaVozila" class="form-control" required>
                     @foreach (var vrsta in ViewBag.Vrsta)
                     {
@@ -47,8 +51,9 @@
                 </select>
                 <span asp-validation-for="VrstaVozila" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="IdLokacije" class="control-label"></label>
+                <label asp-for="IdLokacije" class="control-label">Lokacija</label>
                 <select asp-for="IdLokacije" class="form-control" required>
                     @foreach (var lokacija in ViewBag.Lokacija)
                     {
@@ -57,19 +62,20 @@
                 </select>
                 <span asp-validation-for="IdLokacije" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="Gorivo" class="control-label"></label>
+                <label asp-for="Gorivo" class="control-label">Gorivo</label>
                 <input asp-for="Gorivo" class="form-control" />
                 <span asp-validation-for="Gorivo" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-outline-primary" fdprocessedid="v1udt9" />
+                <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
             </div>
         </form>
     </div>
 </div>
+<br/>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 

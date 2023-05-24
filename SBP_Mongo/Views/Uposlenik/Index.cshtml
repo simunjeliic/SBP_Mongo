@@ -1,17 +1,17 @@
 ﻿@model IEnumerable<SBP_Mongo.Models.Uposlenik>
 
 @{
-    ViewData["Title"] = "Zaposlenici";
+    ViewData["Title"] = "Uposlenici";
 }
 <br/>
-<h1>Zaposlenici</h1>
+<h2>Uposlenici</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-outline-primary" fdprocessedid="v1udt9">Create New</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr class="table-primary">
             
             <th>
                 @Html.DisplayNameFor(model => model.Ime)
@@ -26,10 +26,10 @@
                 @Html.DisplayNameFor(model => model.Adresa)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.BrojMobitela)
+                Broj mobitela
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Jmbg)
+                JMBG
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Email)
@@ -39,7 +39,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+            <tr class="table-dark">
             
             <td>
                 @Html.DisplayFor(modelItem => item.Ime)
@@ -63,9 +63,9 @@
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Id  }) |
-                    @Html.ActionLink("Details", "Details", new { id=item.Id  }) |
-                    @Html.ActionLink("Delete", "Delete", new { id=item.Id  })
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
             </td>
         </tr>
 }
