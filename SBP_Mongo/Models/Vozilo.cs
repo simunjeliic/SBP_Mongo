@@ -1,5 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace SBP_Mongo.Models
 {
@@ -16,6 +18,12 @@ namespace SBP_Mongo.Models
         public string VrstaVozila { get; set; } = null!;
         public string IdLokacije { get; set; } = null!;
         public string Gorivo { get; set; } = null!;
+        public string PictureUrl { get; set; } = null!;
+
+        [NotMapped]
+        public IFormFile PictureFile { get; set; } = null!;
+
+
 
 
     }

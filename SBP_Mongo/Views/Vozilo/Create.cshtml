@@ -1,4 +1,4 @@
-﻿@model SBP_Mongo.Models.Vozilo
+﻿@model SBP_Mongo.ViewModel.VoziloViewModel
 
 @{
     ViewData["Title"] = "Create Vozilo";
@@ -10,7 +10,8 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="ModelVozila" class="control-label">Model vozila</label>
@@ -34,7 +35,16 @@
                 <input asp-for="RegistracijskaOznaka" class="form-control" />
                 <span asp-validation-for="RegistracijskaOznaka" class="text-danger"></span>
             </div>
+<<<<<<< Updated upstream
             <br/>
+=======
+            <!-- File input field -->
+            <div class="form-group">
+                <label asp-for="PictureFile" class="control-label"></label>
+                <input asp-for="PictureFile" type="file" class="form-control" name="PictureFile" id="pictureFile" />
+                <span asp-validation-for="PictureFile" class="text-danger"></span>
+            </div>
+>>>>>>> Stashed changes
             <div class="form-group">
                 <label asp-for="GodinaProizvodnje" class="control-label">Godina proizvodnje</label>
                 <input asp-for="GodinaProizvodnje" class="form-control" />
@@ -74,6 +84,20 @@
                 <a asp-action="Index" class=" btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
             </div>
         </form>
+        @section Scripts {
+    <script>
+        // Client-side validation to check if a file is selected
+        $(document).ready(function() {
+            $('form').submit(function(event) {
+                var fileInput = $('#pictureFile');
+                if (fileInput.get(0).files.length === 0) {
+                    event.preventDefault();
+                    fileInput.siblings('.text-danger').text('Please select a file.');
+                }
+            });
+        });
+    </script>
+        }
     </div>
 </div>
 <br/>

@@ -11,7 +11,14 @@
 </p>
 <table class="table">
     <thead>
+<<<<<<< Updated upstream
         <tr class="table-primary">
+=======
+        <tr>
+            <th>
+                Picture
+            </th>
+>>>>>>> Stashed changes
            
             <th>
                 Model vozila
@@ -39,7 +46,17 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
+<<<<<<< Updated upstream
             <tr class="table-dark">
+=======
+        <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.PictureUrl))
+                    {
+                        <img src="@Url.Content(item.PictureUrl)" alt="Picture" style="width: 100px; height: auto;" />
+                    }
+                </td>
+>>>>>>> Stashed changes
             
             <td>
                 @Html.DisplayFor(modelItem => item.ModelVozila)
