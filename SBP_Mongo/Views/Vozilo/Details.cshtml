@@ -3,56 +3,54 @@
 @{
     ViewData["Title"] = "Details of Vozilo";
 }
-<<<<<<< Updated upstream
-<br/>
+
+<br />
 <h2 class="text-warning">Details</h2>
-<br/>
+<br />
 <div>
     <h4>Vozilo</h4>
     <hr />
     <dl class="row">
-        
-        
-        <dt class = "col-sm-2">
-           Model vozila
+        <dt class="col-sm-2">
+            Model vozila
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.ModelVozila)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Broj šasije
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.BrojSasije)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Registracijska oznaka
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.RegistracijskaOznaka)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Godina proizvodnje
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.GodinaProizvodnje)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Vrsta vozila
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.VrstaVozila)
         </dd>
-        <dt class = "col-sm-2">
-           Lokacija
+        <dt class="col-sm-2">
+            Lokacija
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IdLokacije)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Gorivo
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Gorivo)
         </dd>
     </dl>
@@ -60,68 +58,64 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
     <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
-=======
+    <div class="container p-4">
 
-<div class="container p-4">
-    
+        <div class="row">
+            <div class="col-md-6">
+                <img src="@Model.PictureUrl" alt="Vozilo Picture" class="img-fluid mb-4" />
+            </div>
+            <div class="col-md-6">
+                <hr />
 
-    <div class="row">
-        <div class="col-md-6">
-            <img src="@Model.PictureUrl" alt="Vozilo Picture" class="img-fluid mb-4" />
+                <dl class="row">
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.ModelVozila)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.ModelVozila)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.BrojSasije)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.BrojSasije)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.RegistracijskaOznaka)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.RegistracijskaOznaka)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.GodinaProizvodnje)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.GodinaProizvodnje)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.VrstaVozila)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.VrstaVozila)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.IdLokacije)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.IdLokacije)
+                    </dd>
+                    <dt class="col-sm-4">
+                        @Html.DisplayNameFor(model => model.Gorivo)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.Gorivo)
+                    </dd>
+                </dl>
+            </div>
         </div>
-        <div class="col-md-6">
-            <hr />
 
-            <dl class="row">
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.ModelVozila)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.ModelVozila)
-                </dd>
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.BrojSasije)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.BrojSasije)
-                </dd>
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.RegistracijskaOznaka)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.RegistracijskaOznaka)
-                </dd>
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.GodinaProizvodnje)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.GodinaProizvodnje)
-                </dd>
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.VrstaVozila)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.VrstaVozila)
-                </dd>
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.IdLokacije)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.IdLokacije)
-                </dd>
-                <dt class="col-sm-4">
-                    @Html.DisplayNameFor(model => model.Gorivo)
-                </dt>
-                <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Gorivo)
-                </dd>
-            </dl>
+        <div class="text-center mt-4">
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
+            <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
         </div>
     </div>
-
-    <div class="text-center mt-4">
-        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
-        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
-    </div>
->>>>>>> Stashed changes
-</div>

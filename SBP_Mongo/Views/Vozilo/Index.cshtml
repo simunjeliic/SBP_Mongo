@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Vozila";
 }
-<br/>
+<br />
 <h2>Vozila</h2>
 
 <p>
@@ -11,15 +11,11 @@
 </p>
 <table class="table">
     <thead>
-<<<<<<< Updated upstream
         <tr class="table-primary">
-=======
         <tr>
             <th>
                 Picture
             </th>
->>>>>>> Stashed changes
-           
             <th>
                 Model vozila
             </th>
@@ -39,52 +35,48 @@
                 Lokacija
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Gorivo)
+                Gorivo
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-<<<<<<< Updated upstream
-            <tr class="table-dark">
-=======
-        <tr>
+        @foreach (var item in Model)
+        {
+            <tr>
                 <td>
                     @if (!string.IsNullOrEmpty(item.PictureUrl))
                     {
                         <img src="@Url.Content(item.PictureUrl)" alt="Picture" style="width: 100px; height: auto;" />
                     }
                 </td>
->>>>>>> Stashed changes
-            
-            <td>
-                @Html.DisplayFor(modelItem => item.ModelVozila)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BrojSasije)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RegistracijskaOznaka)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.GodinaProizvodnje)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VrstaVozila)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdLokacije)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gorivo)
-            </td>
-            <td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModelVozila)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BrojSasije)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RegistracijskaOznaka)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GodinaProizvodnje)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VrstaVozila)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdLokacije)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gorivo)
+                </td>
+                <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-warning" fdprocessedid="0i8oo">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>  
-            </td>
-        </tr>
-}
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" fdprocessedid="z0p2rq">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
