@@ -2,10 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\SBP_Mongo",
-    "\\SBP_Mongo\\Controllers",
-    "\\SBP_Mongo\\Models",
-    "\\SBP_Mongo\\Views",
-    "\\SBP_Mongo\\Views\\Marka"
+    "\\SBP_Mongo\\Views"
   ],
   "SelectedNode": "\\SBP_Mongo.sln",
   "PreviewInSolutionExplorer": false

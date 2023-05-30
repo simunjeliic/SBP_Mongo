@@ -69,37 +69,37 @@
 
                 <dl class="row">
                     <dt class="col-sm-4">
-                        @Html.DisplayNameFor(model => model.ModelVozila)
+                       Model vozila
                     </dt>
                     <dd class="col-sm-8">
                         @Html.DisplayFor(model => model.ModelVozila)
                     </dd>
                     <dt class="col-sm-4">
-                        @Html.DisplayNameFor(model => model.BrojSasije)
+                        Broj šasije
                     </dt>
                     <dd class="col-sm-8">
                         @Html.DisplayFor(model => model.BrojSasije)
                     </dd>
                     <dt class="col-sm-4">
-                        @Html.DisplayNameFor(model => model.RegistracijskaOznaka)
+                       Registracijska oznaka
                     </dt>
                     <dd class="col-sm-8">
                         @Html.DisplayFor(model => model.RegistracijskaOznaka)
                     </dd>
                     <dt class="col-sm-4">
-                        @Html.DisplayNameFor(model => model.GodinaProizvodnje)
+                       Godina proizvodnje
                     </dt>
                     <dd class="col-sm-8">
                         @Html.DisplayFor(model => model.GodinaProizvodnje)
                     </dd>
                     <dt class="col-sm-4">
-                        @Html.DisplayNameFor(model => model.VrstaVozila)
+                        Vrsta vozila
                     </dt>
                     <dd class="col-sm-8">
                         @Html.DisplayFor(model => model.VrstaVozila)
                     </dd>
                     <dt class="col-sm-4">
-                        @Html.DisplayNameFor(model => model.IdLokacije)
+                       Lokacija
                     </dt>
                     <dd class="col-sm-8">
                         @Html.DisplayFor(model => model.IdLokacije)
@@ -115,7 +115,8 @@
         </div>
 
         <div class="text-center mt-4">
-            @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
-            <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-success" fdprocessedid="oaubug">Edit</a>
+        <a asp-action="Index" class="btn btn-outline-light" fdprocessedid="brqypi">Back to List</a>
         </div>
     </div>
+</div>

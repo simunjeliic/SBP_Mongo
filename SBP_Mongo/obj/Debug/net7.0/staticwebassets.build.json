@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IPV8u6ONr2KuilL65FdgwX9cUIw3gGrZ1emuU6tg1+s=",
+  "Hash": "YhflOr4MsUI4h4mRgHhe03KpupPuXpM8Lw4dSK3RBpg=",
   "Source": "SBP_Mongo",
   "BasePath": "_content/SBP_Mongo",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SBP_Mongo\\wwwroot",
       "Source": "SBP_Mongo",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBP_Mongo.styles.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBP_Mongo.styles.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "SBP_Mongo.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBP_Mongo.styles.css"
+      "OriginalItemSpec": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBP_Mongo.styles.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBP_Mongo.bundle.scp.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBP_Mongo.bundle.scp.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "SBP_Mongo.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBP_Mongo.bundle.scp.css"
+      "OriginalItemSpec": "D:\\SBP_Mongo\\SBP_Mongo\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBP_Mongo.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\css\\bootstrap.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\css\\bootstrap.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\css\\site.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\css\\site.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\favicon.ico",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\favicon.ico",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\js\\site.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\js\\site.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\15e5b304-a4a4-4761-aca0-60848cf78286.jpg",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\15e5b304-a4a4-4761-aca0-60848cf78286.jpg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/15e5b304-a4a4-4761-aca0-60848cf78286.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\15e5b304-a4a4-4761-aca0-60848cf78286.jpg"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\30ee6d16-0cda-4fa1-b90a-6ba37d401d6a.webp",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\30ee6d16-0cda-4fa1-b90a-6ba37d401d6a.webp",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/30ee6d16-0cda-4fa1-b90a-6ba37d401d6a.webp",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\30ee6d16-0cda-4fa1-b90a-6ba37d401d6a.webp"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\345f4fb0-d70b-4775-8799-f8de2f5e08f7.jpeg",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\345f4fb0-d70b-4775-8799-f8de2f5e08f7.jpeg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/345f4fb0-d70b-4775-8799-f8de2f5e08f7.jpeg",
       "AssetKind": "All",
@@ -1139,10 +1139,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\345f4fb0-d70b-4775-8799-f8de2f5e08f7.jpeg"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\4cc66117-29ef-4bf7-967f-15355c33b016.jpg",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\3bfaf0a8-5b77-41b3-9dac-0dfc1b3a1b15.jpg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "BasePath": "_content/SBP_Mongo",
+      "RelativePath": "uploads/3bfaf0a8-5b77-41b3-9dac-0dfc1b3a1b15.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3bfaf0a8-5b77-41b3-9dac-0dfc1b3a1b15.jpg"
+    },
+    {
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\4cc66117-29ef-4bf7-967f-15355c33b016.jpg",
+      "SourceId": "SBP_Mongo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/4cc66117-29ef-4bf7-967f-15355c33b016.jpg",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4cc66117-29ef-4bf7-967f-15355c33b016.jpg"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\5456405d-8235-48d0-a460-2b17832885a5.jpg",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\5456405d-8235-48d0-a460-2b17832885a5.jpg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/5456405d-8235-48d0-a460-2b17832885a5.jpg",
       "AssetKind": "All",
@@ -1173,10 +1190,61 @@
       "OriginalItemSpec": "wwwroot\\uploads\\5456405d-8235-48d0-a460-2b17832885a5.jpg"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\887e212f-c91a-4c1b-8ca5-30ff8d36b960.jpg",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\556a0305-6d92-435c-8bb6-fa4c7bf834da.jpg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "BasePath": "_content/SBP_Mongo",
+      "RelativePath": "uploads/556a0305-6d92-435c-8bb6-fa4c7bf834da.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\556a0305-6d92-435c-8bb6-fa4c7bf834da.jpg"
+    },
+    {
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\69eed9de-fb8a-42fa-b9f8-c9cd47f27d7b.jpg",
+      "SourceId": "SBP_Mongo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "BasePath": "_content/SBP_Mongo",
+      "RelativePath": "uploads/69eed9de-fb8a-42fa-b9f8-c9cd47f27d7b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\69eed9de-fb8a-42fa-b9f8-c9cd47f27d7b.jpg"
+    },
+    {
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\756df1dd-9652-4cef-9e04-4e2f39e7df80.jpg",
+      "SourceId": "SBP_Mongo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "BasePath": "_content/SBP_Mongo",
+      "RelativePath": "uploads/756df1dd-9652-4cef-9e04-4e2f39e7df80.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\756df1dd-9652-4cef-9e04-4e2f39e7df80.jpg"
+    },
+    {
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\887e212f-c91a-4c1b-8ca5-30ff8d36b960.jpg",
+      "SourceId": "SBP_Mongo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/887e212f-c91a-4c1b-8ca5-30ff8d36b960.jpg",
       "AssetKind": "All",
@@ -1190,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\887e212f-c91a-4c1b-8ca5-30ff8d36b960.jpg"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\9ec8fb1d-161e-4c37-af21-9d1ade257a6f.jpg",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\9ec8fb1d-161e-4c37-af21-9d1ade257a6f.jpg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/9ec8fb1d-161e-4c37-af21-9d1ade257a6f.jpg",
       "AssetKind": "All",
@@ -1207,10 +1275,44 @@
       "OriginalItemSpec": "wwwroot\\uploads\\9ec8fb1d-161e-4c37-af21-9d1ade257a6f.jpg"
     },
     {
-      "Identity": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\f00b9f7b-1a5f-4cb6-8a9f-6af5500b97b4.avif",
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\a2e546c1-36da-4597-a5ab-a4a0d90287bf.jpg",
       "SourceId": "SBP_Mongo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\korisnik\\Documents\\Visual Studio 2022\\Projects\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "BasePath": "_content/SBP_Mongo",
+      "RelativePath": "uploads/a2e546c1-36da-4597-a5ab-a4a0d90287bf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a2e546c1-36da-4597-a5ab-a4a0d90287bf.jpg"
+    },
+    {
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\d0c94ed4-b97b-4166-91b2-cfa47cbd0455.jpg",
+      "SourceId": "SBP_Mongo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
+      "BasePath": "_content/SBP_Mongo",
+      "RelativePath": "uploads/d0c94ed4-b97b-4166-91b2-cfa47cbd0455.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d0c94ed4-b97b-4166-91b2-cfa47cbd0455.jpg"
+    },
+    {
+      "Identity": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\uploads\\f00b9f7b-1a5f-4cb6-8a9f-6af5500b97b4.avif",
+      "SourceId": "SBP_Mongo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SBP_Mongo\\SBP_Mongo\\wwwroot\\",
       "BasePath": "_content/SBP_Mongo",
       "RelativePath": "uploads/f00b9f7b-1a5f-4cb6-8a9f-6af5500b97b4.avif",
       "AssetKind": "All",
